@@ -25,6 +25,7 @@ idf.py set-target esp32s3
 <img width="1080" height="619" alt="1781883601838" src="https://github.com/user-attachments/assets/ecf9f69e-08c7-40c5-b316-4e78c5d10966" />
 idf.py menuconfig
 
+
 <img width="1080" height="618" alt="1781883601855" src="https://github.com/user-attachments/assets/d19e918c-6126-404a-a295-1577bd10b5ae" />
 
 
@@ -35,20 +36,42 @@ idf.py menuconfig
 
 <img width="1080" height="616" alt="1781883601891" src="https://github.com/user-attachments/assets/bb79ac48-e6fc-4eab-a418-17549e44c230" />
 
+
+
 <img width="1080" height="620" alt="1781883601905" src="https://github.com/user-attachments/assets/a8b9bbfa-406b-4b16-8409-60296c8edf1b" />
 
+
+
 <img width="1080" height="627" alt="1781883601922" src="https://github.com/user-attachments/assets/944ef124-47db-4f77-94f7-da96b9a69a21" />
+
+
+
+
 <img width="1080" height="627" alt="1781883601938" src="https://github.com/user-attachments/assets/7ec6de50-de7a-4077-847a-9dd7c72cd103" />
+
+
 
 <img width="1080" height="617" alt="1781883601955" src="https://github.com/user-attachments/assets/dbb2d16f-c2b0-43a2-bce8-b8a8d46a39ff" />
 
+
+
 <img width="1080" height="623" alt="1781883601972" src="https://github.com/user-attachments/assets/4f9ac276-d68e-4f25-9a6f-a926fd1585eb" />
+
+
+
 <img width="1080" height="624" alt="1781883601990" src="https://github.com/user-attachments/assets/7018659a-f28d-4863-9377-dc0aa3057c53" />
 
 
 <img width="1080" height="611" alt="1781883602018" src="https://github.com/user-attachments/assets/e66e50ec-f83f-4d94-a130-dcc9d4a2c235" />
+
+
+
 idf.py build
+
+
+
 <img width="1080" height="618" alt="1781883602038" src="https://github.com/user-attachments/assets/b097e808-af63-4179-a718-e9c387723cf2" />
+
 
 idf.py -p COM5 flash
 
