@@ -1,6 +1,15 @@
 # TechWithPi-AI-Eye-xiaozhi-esp32s3Cam
 TechWithPi AI Eye is an ESP32-S3 CAM based smart AI vision assistant powered by Xiaozhi firmware. It can see, capture, and understand the world around it using AI.
 
+This project is built using the Espressif ESP-IDF framework. To build the firmware, install ESP-IDF and use the idf.py build command. For detailed setup and build instructions, refer to the official Espressif documentation.
+
+Flashing Tools 
+
+https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/tools/idf-tools.html
+
+
+
+
 ESP32-S3 CAM based AI vision assistant powered by Xiaozhi firmware.
 
 <img width="1080" height="607" alt="ai" src="https://github.com/user-attachments/assets/33e03593-8d13-45b1-87b5-c291ed3a5270" />
