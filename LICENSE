@@ -1,6 +1,10 @@
 MIT License
 
-Copyright (c) 2026 TechWithPi 
+Copyright (c) 2026 TechWithPi
+
+This project is based on the xiaozhi-esp32 project.
+Original project:
+https://github.com/78/xiaozhi-esp32
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
