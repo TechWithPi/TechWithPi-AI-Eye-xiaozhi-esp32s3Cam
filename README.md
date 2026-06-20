@@ -7,7 +7,45 @@ Flashing Tools
 
 https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/tools/idf-tools.html
 
+            connection 
 
+
+          MIC
+          
+WS   -> GPIO1
+SCK  -> GPIO2
+SD   -> GPIO42
+
+        
+        SPEAKER
+        
+DIN  -> GPIO39
+BCLK -> GPIO40
+LRC  -> GPIO41
+
+          
+        TFT
+        
+BL   -> GPIO38
+MOSI -> GPIO20
+CLK  -> GPIO19
+DC   -> GPIO47
+RST  -> GPIO21
+
+
+3.7V Battery +
+      |
+      v
+   Booster IN+
+
+3.7V Battery -
+      |
+      v
+   Booster IN-
+
+   
+Booster OUT+ ----> ESP32 5V
+Booster OUT- ----> ESP32 GND
 
 
 ESP32-S3 CAM based AI vision assistant powered by Xiaozhi firmware.
