@@ -7,30 +7,30 @@ Flashing Tools
 
 https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/tools/idf-tools.html
 
-            connection 
+connection 
 
 
-          MIC
+         MIC
           
-WS   -> GPIO1
-SCK  -> GPIO2
-SD   -> GPIO42
+    WS   -> GPIO1
+    SCK  -> GPIO2
+    SD   -> GPIO42
 
         
         SPEAKER
         
-DIN  -> GPIO39
-BCLK -> GPIO40
-LRC  -> GPIO41
+     DIN  -> GPIO39
+     BCLK -> GPIO40
+     LRC  -> GPIO41
 
           
         TFT
         
-BL   -> GPIO38
-MOSI -> GPIO20
-CLK  -> GPIO19
-DC   -> GPIO47
-RST  -> GPIO21
+    BL   -> GPIO38
+    MOSI -> GPIO20
+    CLK  -> GPIO19
+    DC   -> GPIO47
+    RST  -> GPIO21
 
 
 3.7V Battery +
@@ -52,16 +52,17 @@ ESP32-S3 CAM based AI vision assistant powered by Xiaozhi firmware.
 
 <img width="1080" height="607" alt="ai" src="https://github.com/user-attachments/assets/33e03593-8d13-45b1-87b5-c291ed3a5270" />
 
-C:\Users\hp\ cd xiaozhi 
+    C:\Users\hp\ cd xiaozhi 
 
-C:\Users\hp\esp-idf-v5.5.2\export.bat
+    C:\Users\hp\esp-idf-v5.5.2\export.bat
 
 <img width="1080" height="623" alt="1781883601824" src="https://github.com/user-attachments/assets/5f0d84d8-80aa-451e-81b4-ec398e3f28a5" />
 
-idf.py set-target esp32s3
+    idf.py set-target esp32s3
 
 <img width="1080" height="619" alt="1781883601838" src="https://github.com/user-attachments/assets/ecf9f69e-08c7-40c5-b316-4e78c5d10966" />
-idf.py menuconfig
+
+    idf.py menuconfig
 
 
 <img width="1080" height="618" alt="1781883601855" src="https://github.com/user-attachments/assets/d19e918c-6126-404a-a295-1577bd10b5ae" />
@@ -104,14 +105,14 @@ idf.py menuconfig
 
 
 
-idf.py build
+     idf.py build
 
 
 
 <img width="1080" height="618" alt="1781883602038" src="https://github.com/user-attachments/assets/b097e808-af63-4179-a718-e9c387723cf2" />
 
 
-idf.py -p COM5 flash
+       idf.py -p COM5 flash
 
 
 
